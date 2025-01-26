@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="addition.css">
+  </head>
+  <body>
+    <div class="text-center">
+      <div class="bg-container pt-5 pb-5">
+        <span class="number m-2" id="number_1"></span>
+        <span class="operator m-1">+</span>
+        <span class="number m-2" id="number_2"></span>
+        <span class="operator m-1">=</span>
+        <input class="user-input" type="text" id="ansInput"/>
+        <div class="mt-4 mb-4">
+          <button id="checkButton" class="btn btn-primary mr-3" onclick="CHECK()">
+            Check
+          </button>
+          <button id="restartButton" class="btn btn-primary">
+            Restart
+          </button>
+        </div>
+        <p class="game-result" id="result"></p>
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <button onclick="window.location.href = 'feedback.html'">Enter Feedback</button>
+    <script src="additon.js"></script>
+  </body>
+</html>
